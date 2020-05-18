@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Whatsapp Web",
+  "version": "1.0",
+  "description": "Add dark mode to Whatsapp Web",
+  "content_scripts":[{
+    "matches":  ["*://web.whatsapp.com/*"],
+    "js": ["content.js"]
+  }]
+}
